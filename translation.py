@@ -116,7 +116,6 @@ START_MESSAGE_REPLY_MARKUP = InlineKeyboardMarkup(
     [
         [
             InlineKeyboardButton("Help", callback_data="help_command"),
-            InlineKeyboardButton("About", callback_data="about_command"),
         ],
         [
             InlineKeyboardButton("Method", callback_data="method_command"),
