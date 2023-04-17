@@ -6,8 +6,7 @@ from validators import domain
 from config import (
     ADMINS,
     LOG_CHANNEL,
-    SOURCE_CODE,
-    WELCOME_IMAGE,
+   WELCOME_IMAGE,
 )
 from database import db
 from database.users import get_user, is_user_exist, total_users_count, update_user_info
@@ -84,8 +83,7 @@ async def help_command(c, m: Message):
     s = HELP_MESSAGE.format(
         firstname=temp.FIRST_NAME,
         username=temp.BOT_USERNAME,
-        repo=SOURCE_CODE,
-        owner="@ask_admin001",
+        owner="@J_shree_ram",
     )
 
     if WELCOME_IMAGE:
