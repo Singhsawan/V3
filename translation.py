@@ -41,8 +41,8 @@ Useful commands:
 - /batch -100xxx: To shorten or convert all posts in your channel
 """
 
-ABOUT_TEXT = """
-**My Details:**
+ABOUT = """
+**Details:**
 
 `🤖 Name:` ** {} **
     
