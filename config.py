@@ -16,7 +16,7 @@ def is_enabled(value, default):
 
 # Mandatory variables for the bot to start
 # API ID from https://my.telegram.org/auth
-API_ID = int(os.environ.get("API_ID"))
+API_ID = int(os.environ.get("API_ID", "16445683"))
 # API Hash from https://my.telegram.org/auth
 API_HASH = os.environ.get("d0852e13eee2389ff2d9183b00649547")
 BOT_TOKEN = os.environ.get("6264339891:AAHOaAyEFg3s4Rbl62adJtc3E9GfRg5TsNQ")  # Bot token from @BotFather
@@ -27,7 +27,7 @@ ADMINS = (
 )
 
 DATABASE_NAME = os.environ.get("DATABASE_NAME", "MdiskConvertor")
-DATABASE_URL = os.environ.get(
+DATABASE_URL = os.environ.get("mongodb+srv://Rishikesh001:Rishikesh001@cluster0.lqncnak.mongodb.net/?retryWrites=true&w=majority")
     "DATABASE_URL", None
 )  # mongodb uri from https://www.mongodb.com/
 OWNER_ID = int(os.environ.get("OWNER_ID"))  # id of the owner
