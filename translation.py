@@ -47,7 +47,7 @@ ABOUT = """
 `🤖 Name:` ** {} **
     
 `📝 Language:` [Python 3](https://www.python.org/)
-`🧰 Framework:` [Pyrogram](https://github.com/pyrogram/pyrogram)
+`🧰 Framework:` [Pyrogram](https://github.com/pyrogram/pyrogram)"""
 
 
 METHOD_MESSAGE = """
