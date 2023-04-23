@@ -41,13 +41,12 @@ Useful commands:
 - /batch -100xxx: To shorten or convert all posts in your channel
 """
 
-ABOUT = """
-**Details:**
+ABOUT = """<b>Details:</b>
 
-`🤖 Name:` ** {} **
-    
-`📝 Language:` [Python 3](https://www.python.org/)
-`🧰 Framework:` [Pyrogram](https://github.com/pyrogram/pyrogram)"""
+<code>🤖 Name:</code> <b>{}</b>  
+ 
+<code>📝 Language:</code> [Python 3](https://www.python.org/)
+<code>🧰 Framework:</code> [Pyrogram](https://github.com/pyrogram/pyrogram)"""
 
 
 METHOD_MESSAGE = """
